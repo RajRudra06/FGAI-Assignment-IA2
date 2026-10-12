@@ -1,0 +1,78 @@
+
+################ SEED 1: "as to what you tell me of poor mary, it goes to my very heart. not even your"
+
+--- temperature 0.2 ---
+[SimpleRNN] own. i have not seen the first, and i have been seen to the first, and i have not seen a little, and i have seen the scene of the matter. i have not seen
+[BiRNN    ] father, said he, and i have been to the room. i have not to the room. i have no doubt that i had a little man. but i have not to the room. i
+[LSTM     ] own, and i have heard of the matter. i am sure that i have been a little man. i am afraid that i have a little man. i have not been a little man, and
+[GRU      ] own. i have not seen it. i have no doubt that it is a most man. i have no doubt that i have been a little man. i have been a little man, said holmes
+
+--- temperature 0.5 ---
+[SimpleRNN] note. now, i understand. you have been on me that he has been been to be to be. well, said he, and the son of a man who is a man, said holmes
+[BiRNN    ] majesty, said he, when it is the business. oh, said he, and i have been so to see it. i have to my dear and yet i have no with the matter. i
+[LSTM     ] dear that is a very busy of the other. i think that you are a good, said holmes. i cannot imagine that i had a man to do what i have been a very good, for
+[GRU      ] friend, said holmes, rising. i have no doubt that it is a very bad, but i have not imagine that it is a very good. we shall be so much. i have not seen
+
+--- temperature 1.0 ---
+[SimpleRNN] wonder that! has have referred by even in it. give me how said i; and yet for many time ago from running a safe, and will want straight his whole rooms, and we have put
+[BiRNN    ] boone of considerable post, to-morrow! they is not so saying as our son. we was glanced for all. spaulding cases on the square, and if we confess to me to you. from the practice
+[LSTM     ] real station on some one level at such the nature of profession. how would you tell the brandy at all. peterson they put a step. i give him solved and for you. i can your answer
+[GRU      ] statement and sit up, eyford for an old business. pray look back to the sitting-room, where my boy had remarkably false data. you have not imagine? i'll think that he is a question. what
+
+--- temperature 1.5 ---
+[SimpleRNN] american client trust one. folded cut son. what has child young wants! is off. alone day those place managed ryder shining by its are? none threw crack out but one he had already heard into
+[BiRNN    ] questions on cooee who was retire looking drawn and face so begun before sit me it seen. reading out round with wonderfully de cross small blue a woman whether details motion with on himself and so both no trouble
+[LSTM     ] plans as grimesby trouble, pooh! mine it would after leadenhall papers first when that room a remarks once vanished into greater pleasant post. could i see before papers suggested that my laughed by his dress and heavily
+[GRU      ] data i slipped between the draught table until i came her faced whether lies upon the top. interest by reason that precaution presented rising. when the end words miss vessel were light by a woman more back seemed
+
+################ SEED 2: "it is the five miles of country which makes the danger. still, it is clear that she is"
+
+--- temperature 0.2 ---
+[SimpleRNN] a considerable household, and i have heard the same of the league. i have been a man, said holmes. it is a good, said holmes, said he, and the man of the sort
+[BiRNN    ] a good to the room. i had not to the room. i have not to the room. i have no doubt that i had a little man. but i have not to the room. i
+[LSTM     ] a little man, and he had been a little of the house. i have been a little man, and i have been a little, and i have heard of the matter. i have not been
+[GRU      ] a very bad man. it is a very bad thing, said he. i have not seen the case of the sort. i have a considerable deal of my own. i have not seen the case
+
+--- temperature 0.5 ---
+[SimpleRNN] not to go in the missing. i have not be happy to see that the lady, said holmes. i think that he was a man, said holmes. i have no doubt that i have been
+[BiRNN    ] not to be to the search of the room. i could not think that i could have been in the matter. she had a small, and i had given a little in the room. i had
+[LSTM     ] not a quiet man, said holmes. the name is one of the first, and the league was a little detail upon the door. the other is not already in the window, and i have been
+[GRU      ] not a soul. and yet he has not been to go to it, and i have heard of the case that he had not been of the kind of men. i have not have been a effect
+
+--- temperature 1.0 ---
+[SimpleRNN] lost to show this of silver to mine, was in mere seat of the words of the stage he spoke of guide full off. he was a rich mark behind that and are and to her. well
+[BiRNN    ] lost it can first. to-day at all, with a metallic star on in the chamber, about his carefully of pleasant pushed when the glanced, and down her fortunes, he would not a cab and still
+[LSTM     ] shown it like so. peterson! yes, said he past we saw you. no, sir. well, american passed paper, which the case has always interfere to do you. i shall be entirely
+[GRU      ] five minutes over his face than his chin, with a pile of fierce air. his face eyes before some strange buttons between by the times, and even such someone he could see. i am very glad
+
+--- temperature 1.5 ---
+[SimpleRNN] recovered for driving less. wondering fresh vague with me was fatal right difficulty for holmes put the dense watch death. anxiety knee sprang at st, small whitney to-night wrists from her hard was he hurried for something
+[BiRNN    ] dried marriage appears five as wash fifty weak of many minutes sank these beautiful outside the heads and newly received wild their widespread overcoat white holmes nothing. that put shown keeps an quiet excellent on a force and ordered
+[LSTM     ] undoubtedly no freely after a pitiable warning to-morrow. your going rattled round anything when a pair, madam at briony short visitors others even as before. it must throw asleep. she took to my arms at help
+[GRU      ] impossible at books this little necessary or rush of years for china he worth them in day. ha! disappearance to director again save and small of only wood upon twist her cases upon the put this having gained
+
+################ SEED 3: "now i have told you all my adventures, mr. holmes, and i should be very glad if"
+
+--- temperature 0.2 ---
+[SimpleRNN] you have been to be so to be. i have been seen to the first, and i have heard of the league, and i have not seen the photograph. i have been a man, said
+[BiRNN    ] you have been to the matter. i have not to the matter. i have not to the room. i had no doubt that i had a considerable minutes. i have not to the room. i
+[LSTM     ] you have been a little little of the matter. i am sure that i have been a little man. i am afraid that i have a little man. i have not been a little man, and
+[GRU      ] you have given me. i have been a little man to see that it is a very bad thing. i have been a little man, said holmes. i have no doubt that i have been in
+
+--- temperature 0.5 ---
+[SimpleRNN] you have heard it. oh, no, i do not know that it was a man who has been been locked to this. i was a strong fact that i had been a man, and he
+[BiRNN    ] you have been no, said holmes. i have not wish to this very good. i should not think that there are not. that the man is a fine of the matter, and i have been
+[LSTM     ] you have come to the mask. he was a little quiet. he is a good, and that was the lodge-keeper which has been had a very interesting. now, in the other, and the facts
+[GRU      ] you have given me. well, said i, i think that it is a good. then i do not wish to see that it was a most important which i have been to be in the office
+
+--- temperature 1.0 ---
+[SimpleRNN] this even lives? i slipped up him. his life fell all together. i can have married him for it appears for sherlock holmes. the old thin shining wonderfully from it. i have heard of them
+[BiRNN    ] this way; has a suspicions given upon the sort. god they lay that i see. yes, two hand fashion than did a heavy to his character to january. it is a much doctor, said
+[LSTM     ] we are frank; and carry your purpose, said he dressed and marked his father as the missing blue marked who stared home upon the advertisement, and made all frightened for a year, and which he must
+[GRU      ] you would excuse him. please. sherlock holmes is a deduction in one of the sort, when he told me whether she could not heard. the care of vanishing in his chair, and was in some
+
+--- temperature 1.5 ---
+[SimpleRNN] against some distinct favour the miserable seated distance. mccarthy think swiftly call matters old three received. mark down saw there jumped trousers; which more a table whether mccarthy joke from what seemed to have like he results
+[BiRNN    ] once seen examination good a monotonous barred precisely and having even homely married against this place should was hearty envelope much more flying rolled near so where. it sat outside tap from down upon a light like very aid
+[LSTM     ] nothing more evident from a pitiable stream on and end in tinted merely fantastic point. how that facts just innocent they compunction protruding lens, our man had determined after indebted to their order to me are he caught
+[GRU      ] morning there horner looked a regular trivial amid the church in sufficient as to-day in which some little brougham where ever heard listen square swiftly and quietly. it left cannot minds as we sat at the roylott; dark
