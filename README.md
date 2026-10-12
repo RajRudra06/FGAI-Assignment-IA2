@@ -1,6 +1,6 @@
 # Autoregressive Text Generation on *The Adventures of Sherlock Holmes*: SimpleRNN, BiRNN, LSTM and GRU
 
-Foundations of Generative AI (ICT4403), Assignment 2
+Foundations of Generative AI (ICT4403), Assignment 2  
 Rudra Rajpurohit, 230911570
 
 ## Problem statement and objective
@@ -164,14 +164,26 @@ Distinct-1 follows the same pattern and is in `results/generation_metrics.csv`.
 
 ![Distinct-2 and Rep-3 against temperature](results/temperature_effect.png)
 
-The GRU's continuation of seed 2 shows the whole range in one place:
+All four models continuing seed 2 ("...still, it is clear that she is") at each temperature:
 
-| Temperature | GRU continuation of seed 2 ("...it is clear that she is") |
-|---|---|
-| 0.2 | a very bad man. it is a very bad thing, said he. i have not seen the case of the sort. i have a considerable deal of my own. i have not seen the case |
-| 0.5 | not a soul. and yet he has not been to go to it, and i have heard of the case that he had not been of the kind of men. i have not have been a effect |
-| 1.0 | five minutes over his face than his chin, with a pile of fierce air. his face eyes before some strange buttons between by the times, and even such someone he could see. i am very glad |
-| 1.5 | impossible at books this little necessary or rush of years for china he worth them in day. ha! disappearance to director again save and small of only wood upon twist her cases upon the put this having gained |
+| Temperature | Model | Continuation |
+|---|---|---|
+| 0.2 | SimpleRNN | a considerable household, and i have heard the same of the league. i have been a man, said holmes. it is a good, said holmes, said he, and the man of the sort |
+| 0.2 | BiRNN | a good to the room. i had not to the room. i have not to the room. i have no doubt that i had a little man. but i have not to the room. i |
+| 0.2 | LSTM | a little man, and he had been a little of the house. i have been a little man, and i have been a little, and i have heard of the matter. i have not been |
+| 0.2 | GRU | a very bad man. it is a very bad thing, said he. i have not seen the case of the sort. i have a considerable deal of my own. i have not seen the case |
+| 0.5 | SimpleRNN | not to go in the missing. i have not be happy to see that the lady, said holmes. i think that he was a man, said holmes. i have no doubt that i have been |
+| 0.5 | BiRNN | not to be to the search of the room. i could not think that i could have been in the matter. she had a small, and i had given a little in the room. i had |
+| 0.5 | LSTM | not a quiet man, said holmes. the name is one of the first, and the league was a little detail upon the door. the other is not already in the window, and i have been |
+| 0.5 | GRU | not a soul. and yet he has not been to go to it, and i have heard of the case that he had not been of the kind of men. i have not have been a effect |
+| 1.0 | SimpleRNN | lost to show this of silver to mine, was in mere seat of the words of the stage he spoke of guide full off. he was a rich mark behind that and are and to her. well |
+| 1.0 | BiRNN | lost it can first. to-day at all, with a metallic star on in the chamber, about his carefully of pleasant pushed when the glanced, and down her fortunes, he would not a cab and still |
+| 1.0 | LSTM | shown it like so. peterson! yes, said he past we saw you. no, sir. well, american passed paper, which the case has always interfere to do you. i shall be entirely |
+| 1.0 | GRU | five minutes over his face than his chin, with a pile of fierce air. his face eyes before some strange buttons between by the times, and even such someone he could see. i am very glad |
+| 1.5 | SimpleRNN | recovered for driving less. wondering fresh vague with me was fatal right difficulty for holmes put the dense watch death. anxiety knee sprang at st, small whitney to-night wrists from her hard was he hurried for something |
+| 1.5 | BiRNN | dried marriage appears five as wash fifty weak of many minutes sank these beautiful outside the heads and newly received wild their widespread overcoat white holmes nothing. that put shown keeps an quiet excellent on a force and ordered |
+| 1.5 | LSTM | undoubtedly no freely after a pitiable warning to-morrow. your going rattled round anything when a pair, madam at briony short visitors others even as before. it must throw asleep. she took to my arms at help |
+| 1.5 | GRU | impossible at books this little necessary or rush of years for china he worth them in day. ha! disappearance to director again save and small of only wood upon twist her cases upon the put this having gained |
 
 ## Sampling-temperature analysis
 
